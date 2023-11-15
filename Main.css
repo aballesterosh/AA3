@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=montserrat&display=swap');
+body{
+    font-family: 'montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight:bold;
+    color: #3f3f3f; 
+}
+
+#menu form > button{
+    font-size: 18px;
+    font-weight:bold;
+    color: #3f3f3f; 
+}
+
+/*========Slide de imagenes======*/
+.carousel-inner {
+    max-height: 40rem;
+    width: 1500px;
+
+}
+
+/*========media queries pantalla sm======*/
+@media (max-width:768px) {
+    #intro{
+        width: 90% !important;
+    }
+}
+
+.servicio-fila {
+    width: 100% !important;
+    text-align: center;
+}
+@media(max-width: 576px){
+.icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+
+}
+
+}
+
+
+.carousel-inner img {
+    width: 500px;
+    height: 300px;
+ }
+ 
+ body {
+    background-color: black;
+ }
+
+ head {
+    background-color: black;
+ }
+
+ footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    border-top: 1px solid white;
+ }
+
+ .carousel-inner{
+    margin: auto;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+ }
+
+ #bclick{
+    border-radius: 5px whitesmoke;
+ }
+
+ /* FontAwesome icons used for the social media icons */
+
+.icon-button {
+    padding: 10px;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-button:hover {
+    transform: scale(1.2);
+}
+
+.facebook {
+    background-color: #3B5998;
+}
+
+.twitter {
+    background-color: #55ACEE;
+}
+
+.linkedin {
+    background-color: #0077B5;
+}
+
+.youtube {
+    background-color: #FF0000;
+}
+
+.instagram {
+    background-color: #E1306C;
+}

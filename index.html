@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Jaggeroni</title>
+    <!-- Agregar CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Agregar JavaScript de Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css">
+</head>
+<body>
+<!-- Header -->
+    <header class="container-fluid bg-primary d-flex justify-content-center"> 
+        <p class="text-ligth mb-0 p-2 fs-6"> Contactanos  
+        <button id="bclick">Click aquí</button> </p>
+    </header>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><span class="text-primary">Mr, Jaggeroni</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ingredientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+    </div>
+</nav>
+
+
+<!-- Jumbotron -->
+<div class="jumbotron text-center" id="txtp">
+    <h1>Bienvenido a nuestra página web de coctelería</h1>
+    <p>Aquí encontrarás las mejores recetas de cocteles, los ingredientes que necesitas y formas de contactarnos</p>
+    <p class="text-ligth mb-0 p-2 fs-6"> Click en el boton para ver las imagenes  
+        <button id="bclick2">Fotos</button> </p> 
+        <label for="text-center" id="cdtxt"></label>
+            <form action="texto" method="post">
+                <label for="cdtxt">Tu coctel favorito</label>
+                <input type="text" id="cdtxt" name="cdtxt" placeholder="Fernet con coca">
+            </form>    
+        <button id="bclick3">Receta</button> </p>    
+
+<div class="recipe" id="receta">
+    <p>-2 oz de fernet</p>
+    <p>-6 a 8 hielos</p>
+    <p>-Coca Cola al gusto</p>
+    <button id="cerrar">Cerrar</button>
+</div>
+</div>
+
+   
+
+    <a href="www.whatsapp.com" id="lnkwa">Enlace de whatsapp</wa.me/925145961></a>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicadores -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- Slide o Carrusel -->
+        <div class="carousel-inner" id="slide0">
+            <div class="carousel-item active">
+                <img src="Slide Imagenes/Slide5.gif" alt="Imagen 1" width="100% " height: >
+                <div class="carousel-caption">
+                    <h3>Imagen 1</h3>
+                    <p>Aqui podemos apreciar </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Slide Imagenes/Slide2.jpg" alt="Imagen 2" width="100%">
+                <div class="carousel-caption">
+                    <h3>Imagen 2</h3>
+                    <p>Descripción de la imagen 2</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Slide Imagenes/Slide4.jpg" alt="Imagen 3" width="100%">
+                <div class="carousel-caption">
+                    <h3>Imagen 3</h3>
+                    <p>Descripción de la imagen 3</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+        
+    </div>
+     <!-- Pie de pagina -->
+     <footer>
+        <a href="#" id="facebook" class="icon-button facebook" data-url="https://www.facebook.com">Facebook</a>
+        <a href="#" id="twitter"  class="icon-button twitter" data-url="https://www.twitter.com">Twitter</a>
+        <a href="#" id="youtube"  class="icon-button youtube" data-url="https://www.youtube.com">YouTube</a>
+        <a href="#" id="instagram" class="icon-button instagram" data-url="https://www.instagram.com">Instagram</a>
+        <hr>
+        Mr. Jaggeroni Web &copy; 2023
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="Jqery.js"></script>
+</body>
+</html>
